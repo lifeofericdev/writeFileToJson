@@ -8,33 +8,17 @@
 </head>
 <body>
     <h2>Create your account by filling this form</h2>
-    <form action="/api" method="post">
+    <form action="/create-data" method="post">
         <label for="company">
-            <input type="text" placeholder="Company" name="company">
+            <input type="text" placeholder="Company" name="company" required>
         </label>
 
         <label for="employees">
-            <input type="number" placeholder="No. of employees" name="employees">
+            <input type="number" placeholder="No. of employees" name="employees" required>
         </label>
 
-        <label for="email">
-            <input type="email" placeholder="Email" name="email">
-        </label>
-
-        <label for="phone">
-            <input type="phone" placeholder="Enter phone no." name="phone">
-        </label>
-
-        <label for="city">
-            <input type="text" placeholder="City" name="Accra">
-        </label>
-
-        <button type="submit" value="Submit">Submit</button>
+        <button type="submit">Submit</button>
     </form>
 
-    <script>
-        
-    </script>
-    
 </body>
 </html>

@@ -1,3 +1,18 @@
 [
- 
+  {
+    "company": "Neuralink Corp.",
+    "employees": "2000"
+  },
+  {
+    "company": "Tesla, Inc.",
+    "employees": "1000"
+  },
+  {
+    "company": "Access Bank (Ghana) Plc",
+    "employees": "500"
+  },
+  {
+    "company": "Amazon Inc.",
+    "employees": "27000"
+  }
 ]
