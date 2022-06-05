@@ -1,0 +1,31 @@
+{
+    "institutions": [
+        {
+            "institution_id": "13jy-i3i-537xeg-3873a",
+            "country_codes": ["GH"],
+            "name": "Access Bank (Ghana) Plc",
+            "account_type": ["checking", "savings"],
+            "routing_number_type": ["ABA", "ACH", "WIRE"],
+            "routing_numbers": ["36925777"],
+            "swift_codes": ["ABNGGHAC"],
+            "status": "active",
+            "url": "https://www.ghana.accessbankplc.com/",
+            "primary_color": "#ee8102",
+            "logo": "https://www.ghana.accessbankplc.com/App_Themes/AccessBankGroup/img/logo-main.png"
+        },
+        {
+            "institution_id": "348dh-i3i-34b7s-3830a",
+            "country_codes": ["GH"],
+            "name": "Absa Bank Ghana Limited",
+            "account_type": ["checking", "savings"],
+            "routing_number_type": ["ABA", "ACH", "WIRE"],
+            "routing_numbers": [""],
+            "swift_codes": ["BARCGHAC"],
+            "status": "active",
+            "url": "https://www.absa.com.gh",
+            "primary_color": "#FA551E",
+            "logo": "https://www.absa.com.gh/content/dam/ghana/absa/logos/absa-logo-red.png"
+        }
+    ]
+}
+

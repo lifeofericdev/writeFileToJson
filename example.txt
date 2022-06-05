@@ -1,0 +1,51 @@
+app.get('/api', (req, res) => {
+
+    fs.readFile("data.json", "utf8", function readFileCallback(err, data) {
+        if (err) {
+           console.log(err);
+        } else {
+           data = JSON.parse(data); //now it an dataect
+     
+           data.push(junk); //add some data
+           json = JSON.stringify(data, null, 2); //convert it back to json
+           fs.writeFile("data.json", json, "utf8", (error) => {
+              if (error) {
+                 console.log("error " + error);
+              } else {
+                 console.log("success");
+              }
+           }); // write it back
+        }
+     });
+    // fs.readFile('./data.json', 'utf8', (error) => {
+    //     if (error) {
+    //         console.log(error)
+    //     } else {
+    //         try {
+    //             fs.writeFile('./data.json', newData, (error) => {
+    //                 if(error) {
+    //                     console.log(error)
+    //                 } else {
+    //                     data.push(junk)
+    //                     console.log('successful')
+    //                     res.end()
+    //                 }
+    //             })
+    //         } catch (error) {
+    //             console.log(error)
+    //         }
+    //     }
+    // })
+})
+
+
+
+// const data = [];
+
+// const junk = {
+//     company: "Standard Chartered Bank Plc",
+//     employees: 5000,
+//     city: "Cape Coast"
+// }
+
+// const newData = JSON.stringify(junk, null, 2)
